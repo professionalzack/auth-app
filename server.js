@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/public'))
 
 // GET Root Route
 app.get('/', (req, res) => {
-    res.send(<h1>Auth App</h1>);
+    res.send(`<h1>Against All AUTH</h1>`);
 });
 
 
